@@ -68,21 +68,21 @@ nav {
 }
 
 .logo {
-  height: 100%; /* garante que a logo tenha a altura da navbar */
+  height: 100%;
   display: flex;
   align-items: center;
 }
 
 .logo img {
-  height: 90%;       /* ocupa toda a altura da navbar */
-  width: auto;        /* mantém proporção original */
+  height: 90%;
+  width: auto;
   object-fit: contain;
   transition: transform 0.3s;
 }
 
 /* Efeito hover na logo */
 nav img:hover {
-  transform: scale(1.1); /* ajuste suave, menor que 1.5 */
+  transform: scale(1.1);
 }
 
 /* Wrapper para centralizar os links */
@@ -105,7 +105,7 @@ nav ul a {
   font-weight: 500;
   text-decoration: none;
   position: relative;
-  color: #fff; /* cor padrão branca */
+  color: #fff;
 
   transition: transform 0.4s ease, color 0.4s ease;
 }
@@ -206,6 +206,7 @@ header p {
     transform: translateY(0);
   }
 }
+
 
 .texto1{
     font-size: 1rem;
